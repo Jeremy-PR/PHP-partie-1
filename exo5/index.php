@@ -3,7 +3,7 @@
 
 
 
-$nothing = 575876;
+$nothing = "";
 
 ?>
 
@@ -21,7 +21,11 @@ $nothing = 575876;
 
 
   <h1>
-  <?php echo $nothing;?>
+  <?php 
+  echo $nothing;
+  $nothing = 45445;
+  echo $nothing;
+  ?>
   </h1>
        
     
